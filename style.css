@@ -2,6 +2,8 @@ body {
   background-color: #eceef1;
 }
 
+
+
 .signup-form-container {
   display: flex;
   flex-wrap: wrap;
@@ -108,13 +110,15 @@ body {
 }
 
 .recaptcha-disclaimer {
+  flex: 1;
   background-color: #eceef1;
   font-size: 10px;
   color: #8d9096;
-  /* margin-bottom: -30px;
- 
+  margin-bottom: -30px;
+  padding: 20px;
+ text-align: center;
   margin-left: -30px;
-  margin-right: -30px; */
+  margin-right: -30px;
 }
 
 .recaptcha-disclaimer a{
@@ -122,9 +126,11 @@ body {
 }
 
 .privacy-settings {
+  display: flex;
+  align-items: center;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 20px;
   width: 100%;
   height: 60px;
   background-color: #fff;
@@ -132,9 +138,7 @@ body {
 
 .privacy-settings a{
 
-  position: relative;
-  bottom: -25%;
-  left: 1%;
+
   font-size: 16px;
   font-weight: 300;
   color: #0077c5;
