@@ -3,9 +3,42 @@ body {
 }
 
 .signup-form-container {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   width: 318px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.signup-form-subheading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.signup-form-container .form-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #393a3d;
+}
+
+.signup-form-container .form-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: #393a3d;
+}
+
+.signup-form-container a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #0077c5;
+  text-decoration: none;
+  text-align: center;
 }
