@@ -1,0 +1,11 @@
+body {
+  background-color: #eceef1;
+}
+
+.signup-form-container {
+  display: block;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 318px;
+}
