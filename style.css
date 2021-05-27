@@ -49,12 +49,40 @@ body {
   row-gap: 2px;
 }
 
-.signup-form-container form input{
+.signup-form-container form .textbox{
   border: 1px solid #C7C7C7;
   border-radius: 2px;
   margin-bottom: 20px;
   width: 320px;
   height: 34px;
+}
+
+.signup-form-container form .textbox:focus{
+  outline: none !important;
+  border: 1px solid #0077c5;
+  box-shadow: 0 0 10px #719ece;
+ 
+}
+
+
+.signup-form-container form input[type=button]{
+  background-color: #0077c5;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400px;
+  border: 1px solid #C7C7C7;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  width: 320px;
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.signup-form-container form input[type=button]:hover{
+  outline: none !important;
+  border: 1px solid #0077c5;
+  box-shadow: 0 0 10px #719ece;
+ 
 }
 
 .signup-form-container form .rec-comment {
